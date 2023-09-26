@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="imgs/K-logo.png" type="image/x-icon" />
+    <title>Bondi</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ==================== Header ====================-->
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="imgs/logo.png" alt="logo image" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse nav__menu" id="main">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3" href="#blog">Blog</a>
+            </li>
+          </ul>
+          <div class="search px-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a class="btn rounded-pill main-btn mb-2 mb-lg-0" href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+    <!-- ==================== Header ====================-->
+    <main>
+      <!-- ==================== Home ====================-->
+      <section
+        class="home section d-flex align-items-center justify-content-center"
+        id="home">
+        <div class="container text-light text-center">
+          <h1>Taste the Creativity</h1>
+          <p class="text-white-50 mb-5">
+            We make awesome graphic and web design
+          </p>
+          <a href="#" class="btn rounded-pill main-btn">Get Started</a>
+        </div>
+      </section>
+      <!-- ==================== Services ====================-->
+      <section class="services section text-center" id="services">
+        <div class="container">
+          <div class="main-title position-relative my-5">
+            <img class="mb-4" src="imgs/title.png" alt="section image" />
+            <h2>We are Good at</h2>
+            <p class="text-black-50 text-uppercase">
+              SOME OF THESE STUFF UNDER
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="icon-holder position-relative">
+                <i
+                  class="fa-solid fa-1 fa-8x opacity-10 bottom-0 position-absolute number"></i>
+                <i class="fa-solid fa-pen fa-4x position-absolute bottom-0"></i>
+              </div>
+              <h4 class="my-3 text-uppercase services_heading">
+                GRAPHIC DESIGN
+              </h4>
+              <p class="text-black-50 lh-lg">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="icon-holder position-relative">
+                <i
+                  class="fa-solid fa-2 fa-8x opacity-10 bottom-0 position-absolute number"></i>
+                <i class="fa-solid fa-tv fa-4x position-absolute bottom-0"></i>
+              </div>
+              <h4 class="my-3 text-uppercase services_heading">Web DESIGN</h4>
+              <p class="text-black-50 lh-lg">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="icon-holder position-relative">
+                <i
+                  class="fa-solid fa-3 fa-8x opacity-10 bottom-0 position-absolute number"></i>
+                <i
+                  class="fa-solid fa-tablet-screen-button fa-4x position-absolute bottom-0"></i>
+              </div>
+              <h4 class="my-3 text-uppercase services_heading">App DESIGN</h4>
+              <p class="text-black-50 lh-lg">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Portfolio ====================-->
+      <section class="portfolio section text-center" id="portfolio">
+        <div class="container">
+          <div class="main-title position-relative my-5">
+            <img class="mb-4" src="imgs/title.png" alt="section image" />
+            <h2>We Make This</h2>
+            <p class="text-black-50 text-uppercase">PREPARE TO BE AMAZED</p>
+          </div>
+          <ul
+            class="nav nav-pills my-5 justify-content-center gap-2"
+            id="pills-tab"
+            role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="pills-all-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-all"
+                type="button"
+                role="tab"
+                aria-controls="pills-all"
+                aria-selected="true">
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-design-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-design"
+                type="button"
+                role="tab"
+                aria-controls="pills-design"
+                aria-selected="false">
+                Design
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-code-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-code"
+                type="button"
+                role="tab"
+                aria-controls="pills-code"
+                aria-selected="false">
+                Code
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-photo-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-photo"
+                type="button"
+                role="tab"
+                aria-controls="pills-photo"
+                aria-selected="false">
+                Photo
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="pills-app-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#pills-app"
+                type="button"
+                role="tab"
+                aria-controls="pills-app"
+                aria-selected="false">
+                App
+              </button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active row"
+              id="pills-all"
+              role="tabpanel"
+              aria-labelledby="pills-all-tab"
+              tabindex="0">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-01.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-02.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-03.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-04.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-05.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-06.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-07.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-08.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade row"
+              id="pills-design"
+              role="tabpanel"
+              aria-labelledby="pills-design-tab"
+              tabindex="0">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-02.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-03.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-04.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-08.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade row"
+              id="pills-code"
+              role="tabpanel"
+              aria-labelledby="pills-code-tab"
+              tabindex="0">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-01.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-05.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-06.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-07.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade row"
+              id="pills-photo"
+              role="tabpanel"
+              aria-labelledby="pills-photo-tab"
+              tabindex="0">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-05.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-02.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-08.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-06.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade row"
+              id="pills-app"
+              role="tabpanel"
+              aria-labelledby="pills-app-tab"
+              tabindex="0">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-03.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-01.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-07.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="box bg-white mb-3">
+                  <img
+                    class="img-fluid"
+                    src="imgs/work-04.jpg"
+                    alt="portfolio image" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <a href="#" class="btn rounded-pill main-btn text-uppercase"
+              >i want more</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- ==================== About ====================-->
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="main-title text-center position-relative my-5">
+            <img class="mb-4" src="imgs/title.png" alt="section image" />
+            <h2>Some Stuff About Us</h2>
+            <p class="text-black-50 text-uppercase">THE GREAT TEAM</p>
+          </div>
+          <p class="description text-center text-black-50 m-auto mb-5">
+            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta
+            dapibus. Proin eget tortor risus. Donec sollicitudin molestie
+            malesuada.
+          </p>
+          <div class="row align-items-center">
+            <div class="col-lg-4 mb-4 text-center text-md-start">
+              <div class="text">
+                <h3>Retina Design</h3>
+                <p class="text-black-50 fs-6">
+                  Vestibulum ac diam sit amet quam vehicula elementum sed sit
+                  amet dui. Mauris blandit aliquet elit, eget tincidunt nibh
+                  pulvinar a.
+                </p>
+                <p class="text-black-50 fs-6">
+                  Donec rutrum congue leo eget malesuada. Mauris blandit aliquet
+                  elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id
+                  orci porta dapibus. Proin eget tortor risus. Donec
+                  sollicitudin molestie malesuada.
+                </p>
+                <a href="#" class="btn rounded-pill main-btn text-uppercase"
+                  >order me one</a
+                >
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="image">
+                <img
+                  class="img-fluid"
+                  src="imgs/laptop.png"
+                  alt="laptop image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Contact ====================-->
+      <section class="contact section text-center" id="contact">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="text-warning fw-bold">Meet The Team</h2>
+            <p class="description text-black-50 m-auto">
+              Donec rutrum congue leo eget malesuada. Mauris blandit aliquet
+              elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id
+              orci porta dapibus. Proin eget tortor risus. Donec sollicitudin
+              molestie malesuada.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-3 text-center">
+              <div class="box bg-white">
+                <img src="imgs/team-1.png" alt="team image" class="img-fluid" />
+                <h4 class="title text-light p-3">Luke Skywalker</h4>
+                <blockquote class="text-black-50 p-3">
+                  “I don't understand how we got by those troops. I thought we
+                  were dead.“
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center">
+              <div class="box bg-white">
+                <img src="imgs/team-2.png" alt="team image" class="img-fluid" />
+                <h4 class="title text-light p-3">Obi-Wan Kenobir</h4>
+                <blockquote class="text-black-50 p-3">
+                  “Your clones are very impressive. You must be very proud”
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center">
+              <div class="box bg-white">
+                <img src="imgs/team-3.png" alt="team image" class="img-fluid" />
+                <h4 class="title text-light p-3">Princess Leia</h4>
+                <blockquote class="text-black-50 p-3">
+                  “I don't know who you are, but from now on you'll do as I tell
+                  you?”
+                </blockquote>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3 text-center">
+              <div class="box bg-white">
+                <img src="imgs/team-4.png" alt="team image" class="img-fluid" />
+                <h4 class="title text-light p-3">Yoda</h4>
+                <blockquote class="text-black-50 p-3">
+                  “Clear your mind must be if you are to discover the real
+                  villains behind plot.”
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Brands ====================-->
+      <section class="brands section text-center">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-6 col-md-4 col-lg-2 my-3">
+              <div class="image">
+                <img class="img-fluid" src="imgs/tech-1.png" alt="tech image" />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 my-3">
+              <div class="image">
+                <img class="img-fluid" src="imgs/tech-2.png" alt="tech image" />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 my-3">
+              <div class="image">
+                <img class="img-fluid" src="imgs/tech-3.png" alt="tech image" />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 my-3">
+              <div class="image">
+                <img class="img-fluid" src="imgs/tech-4.png" alt="tech image" />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 my-3">
+              <div class="image">
+                <img class="img-fluid" src="imgs/tech-1.png" alt="tech image" />
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-2 my-3">
+              <div class="image">
+                <img class="img-fluid" src="imgs/tech-2.png" alt="tech image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Project ====================-->
+      <section
+        class="project section d-flex align-items-center justify-content-center">
+        <div class="container text-light text-center">
+          <h1>Start Your Project Now</h1>
+          <p class="text-white-50 mb-5">
+            Leave your description and we start the engine.Don't worry,you can
+            cancel anytime
+          </p>
+          <a href="#" class="btn rounded-pill main-btn text-uppercase"
+            >Start Project</a
+          >
+        </div>
+      </section>
+      <!-- ==================== Blog ====================-->
+      <section class="blog section" id="blog">
+        <div class="container">
+          <div class="main-title text-center position-relative my-5">
+            <img class="mb-4" src="imgs/title.png" alt="section image" />
+            <h2>Read Our Blog</h2>
+            <p class="text-black-50 text-uppercase">NEW STORIES</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card">
+                <img
+                  src="imgs/blog-1.jpg"
+                  class="card-img-top"
+                  alt="card image" />
+                <div class="card-body">
+                  <p class="card-text text-black-50 mb-2">Jan 17, 2022</p>
+                  <h5 class="card-title mb-3">Some Awesome Blog Title Here</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card">
+                <img
+                  src="imgs/blog-2.jpg"
+                  class="card-img-top"
+                  alt="card image" />
+                <div class="card-body">
+                  <p class="card-text text-black-50 mb-2">Jan 17, 2022</p>
+                  <h5 class="card-title mb-3">Some Awesome Blog Title Here</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card">
+                <img
+                  src="imgs/blog-3.jpg"
+                  class="card-img-top"
+                  alt="card image" />
+                <div class="card-body">
+                  <p class="card-text text-black-50 mb-2">Jan 17, 2022</p>
+                  <h5 class="card-title mb-3">Some Awesome Blog Title Here</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <a href="#" class="btn rounded-pill main-btn text-uppercase"
+              >More Stories</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- ==================== Subscribe ====================-->
+      <section
+        class="subscribe section bg-warning text-center text-md-start">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-lg-3">
+              <h3 class="mb-3">Subscribe to our Newsletter:</h3>
+            </div>
+            <div class="col-md-6 col-lg-7">
+              <input
+                class="text-light w-100 bg-transparent pb-2 mb-3"
+                type="email"
+                placeholder="Enter Email Address" />
+            </div>
+            <div class="col-md-6 col-lg-2">
+              <input
+                type="submit"
+                class="btn main-btn rounded-pill"
+                value="Subscribe" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ==================== Footer ====================-->
+    <footer class="footer section text-white-50 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="info">
+              <img class="mb-4" src="imgs/logo.png" alt="logo image" />
+              <p class="mb-5">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+              <div class="copy">
+                <p class="mb-0">Created by <span class="maker">KIMO</span></p>
+                <p>&copy; 2023 - <span class="text-warning">Bondi Inc</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">Links</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>Home</li>
+                <li>Our Services</li>
+                <li>Portfolio</li>
+                <li>Testimonials</li>
+                <li>Support</li>
+                <li>Terms and Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">About Us</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>Sign In</li>
+                <li>Register</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="contact-us">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-5">
+                Get in touch with us via mail phone.We are waiting for your call
+                or message
+              </p>
+              <a href="#" class="btn main-btn rounded-pill w-100"
+                >graphberry@gmail.com</a
+              >
+              <ul class="d-flex mt-5 list-unstyled gap-3">
+                <li>
+                  <a class="d-block text-light" href="#">
+                    <i
+                      class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#">
+                    <i
+                      class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#">
+                    <i
+                      class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#">
+                    <i
+                      class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ==================== Scroll to Up ====================-->
+    <a href="#" class="scrollUp" id="scroll-up">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
